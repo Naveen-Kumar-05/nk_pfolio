@@ -9,12 +9,12 @@ export function AutoScrollReveal({ children }: { children: React.ReactNode }) {
     closed: {
       height: 0,
       opacity: 0,
-      transition: { duration: 0.5, ease: "easeInOut" },
+      transition: { duration: 0.5, ease: "easeInOut" as const },
     },
     open: {
       height: "auto",
       opacity: 1,
-      transition: { duration: 0.8, ease: "easeOut", staggerChildren: 0.2 },
+      transition: { duration: 0.8, ease: "easeOut" as const, staggerChildren: 0.2 },
     },
   };
 
