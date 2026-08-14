@@ -1,4 +1,4 @@
-# Parth Kale — Portfolio ✏️
+# Naveenkumar — Portfolio ✏️
 
 A hand-drawn, whiteboard-themed portfolio built with Next.js. The career path
 literally **draws itself out** as you scroll — a wandering marker line that
